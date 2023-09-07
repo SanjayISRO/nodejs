@@ -1,0 +1,116 @@
+{
+  "Genesys India Innovation Day": [
+    {
+      "question": "What is Genesys India Innovation Day Fair?",
+      "type": "string",
+      "answer": "To celebrate the work of our colleagues in India, generate interest in IP and get everyone a chance to be involved, the Genesys IP team is holding an INNOVATION DAY FAIR."
+    },
+    {
+      "question": "When will Genesys India Innovation Day be conducted?",
+      "type": "string",
+      "answer": "It is planned to be conducted on 23rd May 2023."
+    },      
+    {
+      "question": "Is there any criteria to be considered before submitting the ideas?",
+      "type": "array",
+      "answer": "Ideas must meet the following criteria",
+      "listOfDatas": [
+        {
+          "criteria": "Cannot have been previously submitted for patent consideration."
+        },
+        { "criteria": "Cannot already be incorporated into the product." },
+        {
+          "criteria": "Should be related to a submitter’s job function but don’t necessarily have to be, however, ideas must pertain to Genesys’ products and industry."
+        },
+        {
+          "criteria": "Must be fleshed out adequately enough for people to understand how they work, but a working version is not required"
+        }
+      ]
+    },
+    {
+      "question": "How should we submit our ideas?",
+      "type": "array",
+      "answer": "There are 2 ways you can submit your ideas:",
+      "listOfDatas": [
+        {
+          "criteria": "Idea can be submitted directly in the official website which is https://genesys.anaqua.com"
+        },
+        { 
+          "criteria": "Idea can be filled in Invention Disclosure Form (GII-Invention Disclosure Form.doc). Attach the form and email to patents@genesys.com" 
+        }
+      ]
+    },
+    {
+      "question": "Where can I get the Invention disclosure form?",
+      "type": "link",
+      "answer": "It can be downloaded by",
+      "path":"assets/documents/GII-Invention Disclosure Form.doc"
+    },
+    {
+      "question": "Is there any guidance available on how to fill the form for IP patent?",
+      "type": "string",
+      "answer": "Yes. Please visit videos section in the portal. Select Event Name as IP Patent Training. You can go through the video to understand more about IP Patent training."
+    },
+    {
+      "question": "How do we register for Genesys India Innovation Day in the portal?",
+      "type": "string",
+      "answer": "Visit the Registration Form section and provide a Team Name and enter the Team size. Provide the team member details (email ids) and the gist of the idea that you have submitted for Innovation Day. Also choose the mode of idea submission and also your team location. That's it. Click on Submit button."
+    },
+    {
+      "question": "What is the last day to register for participating in Genesys India Innovation Day?",
+      "type": "string",
+      "answer": "You will have to register your team on or before 12th May."
+    }, 
+    {
+      "question": "How do we present our Ideas during Genesys India Innovation Day?",
+      "type": "string",
+      "answer": "The Genesys India Innovation Day Fair set up will mimic that of a tradeshow, where a team has a station to demo/present/discuss their idea to their colleagues. It can be as simple as a computer set up to illustrate their idea or a posterboard with photos."
+    },
+    {
+      "question": "What will be the timing for the Genesys India Innovation Day Fair?",
+      "type": "string",
+      "answer": "Ideas to be presented at a fair on May 23 (between 9am to 12pm) in the morning with awards presented at a reception in the afternoon."
+    },
+    {
+      "question": "What will Genesys India Innovation 2023 winners get?",
+      "type": "array",
+      "answer": "There will be 3 winning teams and each member of the winning teams will receive cash prizes allocated through payroll as follows: ",
+      "listOfDatas": [
+        {
+          "criteria": "First place: 50,000 INR"
+        },
+        { 
+          "criteria": "Second place: 40,000 INR" 
+        },
+        {
+          "criteria": "Third place:  25,000 INR"
+        }
+      ]
+    },
+    {
+      "question": "Is it possible to have a team member outside of India?",
+      "type": "string",
+      "answer": "No. As the name suggests this event is conducted only for Genesys India Employees, so we encourage to collobrate with team within India and participate in this event."
+    },
+    {
+      "question": "Suppose my team is not from Chennai, will our trip expense covered by Genesys?",
+      "type": "string",
+      "answer": "If the idea submitted by your team (on or before May 12th) gets shortlisted, Genesys will cover the expenses for the team to be present for a day trip to Chennai "
+    },
+    {
+      "question": "Is it possible to attend the event virtually?",
+      "type": "string",
+      "answer": "No. The spirit of this event is intended to have people come together in person, so no plans for broadcasting the event virtually."
+    },
+    {
+      "question": "Do we have any refreshments planned during the event?",
+      "type": "string",
+      "answer": "Yes, there are refreshments planned on 23rd May."
+    },
+    {
+      "question": "Whom should I contact in case of a query?",
+      "type": "string",
+      "answer": "Write to GenesysIndiaInnovation@genesys.com or patents@genesys.com for any queries"
+    }
+  ]
+}

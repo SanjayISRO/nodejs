@@ -1,0 +1,18 @@
+{
+  "innovationDayConfigs": {
+    "maxSize": 4,
+    "maxWordCount": 500
+  },
+  "registrationFormConfigs": {
+    "eventNames": [
+      {
+        "name": "Genesys India Innovation Day",
+        "isSelected": true
+      },
+      {
+        "name": "Hackathon",
+        "isSelected": false
+      }
+    ]
+  }
+}

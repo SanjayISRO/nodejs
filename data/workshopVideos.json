@@ -1,0 +1,20 @@
+{
+  "Genesys Cloud Enablement Workshops": [
+    {
+      "title": "Genesys Cloud Voice Service",
+      "path": "assets/videos/first_workshop.mp4"
+    },
+    {
+      "title": "Genesys Cloud Digital Services (Chat & Chatbots)",
+      "path": "assets/videos/second_workshop.mp4"
+    },
+    {
+      "title": "Genesys Cloud Digital Services (Email & Social media)",
+      "path": "assets/videos/third_workshop.mp4"
+    }
+  ],
+  "IP Patent Training": [{
+    "title": "IP Patent Training",
+    "path" : "assets/videos/ip_patent_training.mp4"
+  }]
+}
