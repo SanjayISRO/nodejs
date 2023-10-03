@@ -1,0 +1,37 @@
+name: Publish Project
+on: workflow_dispatch
+jobs:
+  checkout-code:
+  runs-on: ubuntu-latest
+  permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: install node
+    - name: Install Node js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    - name: Install dependencies
+      run: |
+        npm ci
+        echo "npm installed successfully"
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: ui/dist
+        name: application
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
+      with:
+        artifact_name: final-report
+        token: ${{secrets.GIT_TOKEN}}
