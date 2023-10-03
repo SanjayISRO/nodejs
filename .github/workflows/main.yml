@@ -1,5 +1,8 @@
 name: Publish Project
-on: workflow_dispatch
+on:
+  push:
+    branch:
+      internal_portal
 
 jobs:
   checkout-code:
