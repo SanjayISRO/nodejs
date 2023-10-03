@@ -33,6 +33,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
         with:
-          artifact_name: final-report
+          artifact_name: application
           token: ${{secrets.GIT_TOKEN}}
 
